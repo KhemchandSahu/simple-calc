@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc2.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="kecio">
+            kecio 1956x
+        </div>
+        <div class="cir"></div>
+        <div class="display">
+            <div class="operation">
+
+            </div>
+            <div class="equals">
+                ...
+            </div>
+
+        </div>
+        <div class="keys">
+            <button class="op" onClick="handleClear()">AC</button>
+            <button class="ex" onClick="handleClick('(')">(</button>
+            <button class="ex" onClick="handleClick(')')">)</button>
+            <button class="op" onClick="handleClick('+')">+</button>
+            <button onClick="handleClick(7)">7</button>
+            <button onClick="handleClick(8)">8</button>
+            <button onClick="handleClick(9)">9</button>
+            <button class="op" onClick="handleClick('-')">-</button>
+            <button onClick="handleClick(4)">4</button>
+            <button onClick="handleClick(5)">5</button>
+            <button onClick="handleClick(6)">6</button>
+            <button class="op" onClick="handleClick('*')">*</button>
+            <button onClick="handleClick(1)">1</button>
+            <button onClick="handleClick(2)">2</button>
+            <button onClick="handleClick(3)">3</button>
+            <button class="op" onClick="handleClick('/')">/</button>
+            <button class="ex" onClick="handleClick('%')">%</button>
+            <button onClick="handleClick(0)">0</button>
+            <button class="ex" onClick="handleClick('.')">.</button>
+            <button class="op" onClick="handleEqual()">=</button>
+            <!-- <button class="equal" onClick="handleClick()">=</button> -->
+
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
